@@ -47,7 +47,7 @@ p{
 .patient{
     padding: .5rem 1rem;
     font-size: 2rem;
-    background-color:white;
+    background-color: salmon;
     color:navy;
 }
 button{
@@ -89,13 +89,13 @@ button{
     font-size: 2rem;
 }
 .coronainfo{
-    background-color: wheat;
+    background-color:tomato;
     color: black;
     padding: .5rem 1rem;
     font-size: 2rem;
 }
 .vacination:hover{
-    background-color: white;
+    background-color: blue;
     color: green;
 }    
 .coronainfo:hover{
@@ -103,16 +103,17 @@ button{
     color: wheat;
 }
 .learnmore{
-    background-color: wheat;
+    background-color: salmon;
     color: black;
     padding: .5rem 1rem;
     font-size: 2rem;
 }
 a{
     text-decoration: none;
+    color: white;
 }
 .learnmore:hover{
-    background-color: yellowgreen;
+    background-color: purple;
     border: 2px solid navy;
 }
 .container2 img{
