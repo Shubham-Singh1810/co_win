@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    height: 115vh;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+}
+.container{
+    background: repeating-linear-gradient( orangered 0%,white 40%, white 50%, green 100%);
+    border: 2px solid white;
+    height: 100%;
+    width: 80rem;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 5rem;
+    box-shadow: 3px 3px 10px white,-3px -2px 10px black ;
+}
+.box{
+    display: flex;
+    padding: 2rem 1rem;
+    font-size: 1.5rem;
+}
+h1{
+    padding: .1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 3px 4px navy;
+    color: white;
+} 
+p{
+    padding: 1rem;
+    font-size: 2rem;
+}   
+.donor{
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    background-color: navy;
+    color:white;
+}
+.patient{
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    background-color:white;
+    color:navy;
+}
+button{
+    margin: .5rem;
+}
+.box1 ,.box2 ,.box3{
+    border: 2px solid blue;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.donor:hover{
+    background-color:green;
+    color: white;
+    border: navy 3px solid;
+}
+.patient:hover{
+    background-color: green;
+    color: navy; 
+    border: black 3px solid;
+}
+.bottom{
+    border-bottom: 2px solid green;
+}
+.imgbox{
+    display: flex;
+    justify-content: space-between;
+}
+.imgbox img{
+    height: 25rem;
+    margin: .5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.vacination{
+    background-color: green;
+    color: white;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+}
+.coronainfo{
+    background-color: wheat;
+    color: black;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+}
+.vacination:hover{
+    background-color: white;
+    color: green;
+}    
+.coronainfo:hover{
+    background-color: black;
+    color: wheat;
+}
+.learnmore{
+    background-color: wheat;
+    color: black;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+}
+.learnmore:hover{
+    background-color: yellowgreen;
+    border: 2px solid navy;
+}
+.container2 img{
+    height: 90vh;
+}
+.container2 {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+/* slider effect */
+.sliderbox{
+    width: 30rem;
+    padding: relative;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto;
+}
+#slider{
+    margin: .1rem;
+    display: inline-flex;
+    transition: 0.7s;
+    align-items: center;
+}
+#slider img{
+    border-radius: 1rem;
+    height: 30rem;
+    border: 1px solid black;
+}
+.indicators{
+    position: absolute;
+    left: 50%;
+    
+    transform: translateX(-50%);
+}
+.indicators span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(250, 250, 250, 0.5);
+    border:1px solid gray ;
+}
+.footor{
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem;
+}

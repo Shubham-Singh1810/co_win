@@ -1,0 +1,19 @@
+@media only screen and (max-width:500px){
+     html{
+         font-size: 50%;
+     }
+     .container{
+         padding: 1rem;
+     }
+     .imgbox{
+         flex-direction: column;
+     }
+     .box{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:370px){
+    body{
+        height: 120vh;
+    }
+}

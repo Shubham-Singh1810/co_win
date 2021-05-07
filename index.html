@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co_Win</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+    <!-- <div class="left">
+        <div class="img1"><img src="img/img.jpg" alt=""></div>
+        <div class="img1"><img src="img/img2.jpg" alt=""></div>
+        <div class="img1"><img src="img/img3.jpg" alt=""></div>
+    </div> -->
+    <div class="container">
+        <h1>HELP INDIA BREATHE AGAIN</h1>
+        <p>Please help ! your plasma can Save a life.</p>
+        <hr>
+        <hr>
+        <p>Plasma from recovered COVID-19 patients is urgentaly needed across hospitals in INDIA.</p>
+        <button class="donor">Register As A Donor</button>
+        <button class="patient">Patient Registration</button>
+        
+        <!-- <div class="imgbox">
+            <div class="img1"><img src="img/img.jpg" alt=""></div>
+            <div class="img2"><img src="img/img2.jpg" alt=""></div>
+            <div class="img3"><img src="img/img3.jpg" alt=""></div>
+        </div> -->
+       
+       
+        <div class="sliderbox">
+            <div id="slider">
+                <img src="img/img.jpg" alt="">
+                <img src="img/img2.jpg" alt="">
+                <img src="img/img3.jpg" alt="">
+            </div>
+            <div class="indicators">
+                <span id="btn1"></span>
+                <span id="btn2"></span>
+                <span id="btn3"></span>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <div class="box1">This site connects current COVID patients with recovered COVID patients who wish to donate
+                plasma.</div>
+            <div class="box2"> Wheather you are a donor or a recipent we need some details - contact details, location ,
+                blood group are critical for us to make the match.</div>
+            <div class="box3"> Once we have created a successful match, we share the donor's details with the patient
+            </div>
+        </div>
+        <button class="learnmore"><a href="info.html" target="_blank">READ! GOVERNMENT GUIDELINES</a></button>
+        <p> Are you ready to save a life?</p>
+        <hr>
+        <hr>
+
+        <button class="donor bottom">Register Now</button>
+        <button class="vacination"> <a href="https://www.cowin.gov.in" target="_blank">Register for vacination</a></button>
+        
+        <button class="coronainfo"> <a href="https://www.covid19india.org" target="_blank">COVID-19 INFO</a></button>
+        <hr>
+        <hr>
+      
+        <div class="footor">copyright &copy; 2021-2022 allright reserved.</div>
+    </div>
+    <script>
+        var slide = document.getElementById("slider")
+        var btn1 = document.getElementById("btn1")
+        var btn2 = document.getElementById("btn2")
+        var btn3 = document.getElementById("btn3")
+
+        btn1.onclick = function () {
+            slide.style.transform = "translateX(0px)"
+        }
+        btn2.onclick = function () {
+            slide.style.transform = "translateX(-30rem)"
+        }
+        btn3.onclick = function () {
+            slide.style.transform = "translateX(-60rem)"
+        }
+    </script>
+</body>
+
+</html>
